@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vertically Divided Webpage</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="left-section">
+    <h2>Left Section Content</h2>
+    <p>This is the content of the left section.</p>
+    <div class="Codeblock">
+      <div class="Type">
+        <h3 class = "Content">HTML</h3>
+      </div>
+      <div class="Area">
+        <textarea class="Code">
+        </head>
+        <body>
+            <div class="payment-container">
+                <h2>Select Payment Method</h2>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <input type="radio" id="credit-card" name="payment" value="credit-card">
+                        <label for="credit-card">Credit Card</label>
+                    </div>
+                    <div class="payment-method">
+                        <input type="radio" id="debit-card" name="payment" value="debit-card">
+                        <label for="debit-card">Debit Card</label>
+                    </div>
+                    <div class="payment-method">
+                        <input type="radio" id="paypal" name="payment" value="paypal">
+                        <label for="paypal">PayPal</label>
+                    </div>
+                    <div class="payment-method">
+                        <input type="radio" id="cash-on-delivery" name="payment" value="cash-on-delivery">
+                        <label for="cash-on-delivery">Cash on Delivery</label>
+                    </div>
+                </div>
+                <button class="proceed-button">Proceed to Payment</button>
+            </div>
+        </body>
+        </html>
+        </textarea>
+      </div>
+    </div>
+    <div class="Codeblock">
+      <div class="Type">
+        <div class="Content">
+          <h3>CSS</h3>
+        </div>
+      </div>  
+      <div class="Area">
+        <textarea class="Code">
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 250vh;
+          }
+          
+          .left-section, .right-section {
+            flex: 1;
+            height: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            justify-content: center;
+          }
+          
+          .left-section {
+            color: rgb(255, 255, 255);
+            background-color: #1c1c1c;
+          }
+          
+          .right-section {
+            background-color: #313131;
+          }
+          
+          .Header-Title{
+            background-color: rgba(0,0,0);
+          }
+          
+          .Codeblock {
+            color: rgba(0,0,0);
+            background-color: rgb(50, 50, 50);
+            width: 550px;
+            height: 300px;
+            border-radius: 25px;
+            padding: 5px;
+            margin: 15px;
+            transition: 0.5s;
+            border: white;
+          }
+          
+          .Codeblock:hover {
+            border-color: rgb(30, 3, 78);
+          }
+          
+          .Content {
+            color: rgb(255, 125, 3);
+            text-align: center;
+            justify-content: center;
+          }
+          
+          .Area {
+          padding: 5px;
+          }
+          
+          .Code {
+            background-color: rgb(19, 19, 19);
+            color: rgb(245, 131, 0);
+            resize: none;
+            width: 500px;
+            height: 200px;
+          }
+        </textarea>
+      </div>    
+    </div>
+    <div class="Codeblock">
+      <div class="Type">
+        <h3 class="Content">JS</h3>
+      </div>
+      <div class="Area">
+        <textarea class="Code">
+          
+        </textarea>
+      </div>
+    </div>
+  </div>
+  <div class="right-section">
+
+    <style>
+      body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 250vh;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.left-section {
+  color: rgb(255, 255, 255);
+  background-color: #1c1c1c;
+}
+
+.right-section {
+  background-color: #313131;
+}
+
+.Header-Title{
+  background-color: rgba(0,0,0);
+}
+
+.Codeblock {
+  color: rgba(0,0,0);
+  background-color: rgb(50, 50, 50);
+  width: 550px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 15px;
+  transition: 0.5s;
+  border: white;
+}
+
+.Codeblock:hover {
+  border-color: rgb(30, 3, 78);
+}
+
+.Content {
+  color: rgb(255, 125, 3);
+  text-align: center;
+  justify-content: center;
+}
+
+.Area {
+padding: 5px;
+}
+
+.Code {
+  background-color: rgb(19, 19, 19);
+  color: rgb(245, 131, 0);
+  resize: none;
+  width: 500px;
+  height: 200px;
+}
+    </style>
+    </head>
+    <body>
+        <div class="payment-container">
+            <h2>Select Payment Method</h2>
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <input type="radio" id="credit-card" name="payment" value="credit-card">
+                    <label for="credit-card">Credit Card</label>
+                </div>
+                <div class="payment-method">
+                    <input type="radio" id="debit-card" name="payment" value="debit-card">
+                    <label for="debit-card">Debit Card</label>
+                </div>
+                <div class="payment-method">
+                    <input type="radio" id="paypal" name="payment" value="paypal">
+                    <label for="paypal">PayPal</label>
+                </div>
+                <div class="payment-method">
+                    <input type="radio" id="cash-on-delivery" name="payment" value="cash-on-delivery">
+                    <label for="cash-on-delivery">Cash on Delivery</label>
+                </div>
+            </div>
+            <button class="proceed-button">Proceed to Payment</button>
+        </div>
+    </body>
+    </html>
+
+
+  </div>
+</body>
+</html>
