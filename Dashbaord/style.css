@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lexend';
+}
+
+.parallax-content {
+    text-align: center;
+    background-color: rgba(71, 71, 71, 0.751);
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition-duration: 0.75s;
+}
+
+.parallax-content:hover{
+    font-size: larger;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Container{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.Container2{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.Feature{
+    height: 200px;
+    margin: 20px;
+}
+
+.normal-content2 {
+    background-color: #ffffff;
+    padding: 200px;
+    text-align: center;}
