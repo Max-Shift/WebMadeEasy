@@ -1,0 +1,88 @@
+body {
+  font-family: 'Lexend';
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 250vh;
+  position: relative;
+}
+
+.left-section, .right-section {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.left-section {
+  color: rgb(255, 255, 255);
+  overflow-y: hidden;
+  background-color: #1c1c1c;
+  height: 100vh;
+  position: fixed;
+}
+
+.right-section {
+  background-color: #313131;
+}
+
+.Header-Title{
+  background-color: rgba(0,0,0);
+}
+
+.Codeblock {
+  color: rgba(0,0,0);
+  background-color: rgb(50, 50, 50);
+  width: 550px;
+  height: 300px;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 15px;
+  transition: 0.5s;
+  border: white;
+}
+
+.Codeblock:hover {
+  border-color: rgb(30, 3, 78);
+}
+
+.Content {
+  text-align: center;
+  justify-content: center;
+}
+
+.Area {
+padding: 5px;
+}
+
+.Code {
+  font: 'Roboto';
+  background-color: rgb(19, 19, 19);
+  resize: none;
+  width: 500px;
+  height: 200px;
+}
+
+.parallax-content{
+  background-color: rgba(0, 0, 0, 0.601);
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+
+.parallax-content:hover{
+  background-color: rgba(169, 169, 169, 0.701);
+  padding: 45px;
+  color: rgb(0, 0, 0);
+  font-size: 1.15em;
+}
+
+.normal-content{
+  transition: 0.5s;
+}
+
+.normal-content:hover{
+  background-color: rgba(0,0,0);
+  color: rgb(255, 255, 255);
+}
